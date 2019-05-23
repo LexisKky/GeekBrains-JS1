@@ -1,0 +1,29 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.tasks_box
+{
+  width: 950px;
+  margin: 0 auto;
+}
+
+.task
+{
+  display: inline-block;
+  text-decoration: none;
+  color: #f0f0f0;
+  padding: 10px 5px 10px 5px;
+  margin-top: 25px;
+  background-color: #45c3aa;
+  border-radius: 6px;
+}
+
+.task:hover
+{
+  background-color: #15a98c;
+  transition: 400ms;
+  cursor: pointer;
+}
